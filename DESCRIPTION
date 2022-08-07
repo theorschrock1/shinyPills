@@ -1,7 +1,7 @@
 Package: shinyPills
 Type: Package
 Title: Draggable and droppable pills for shiny
-Version: 0.0.0.9000
+Version: 0.0.0.9002
 Author: Theo Schrock
 Maintainer: <theorschrock@gmail.com>
 Description: Draggable and droppable pills for shiny.
@@ -13,6 +13,12 @@ Imports:
     glue,
     stringr,
     checkmate,
-    rlang
+    rlang,
+    exprTools,
+    shiny
 URL: https://github.com/theorschrock1/shinyPills
 BugReports: https://github.com/theorschrock1/shinyPills/issues
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
