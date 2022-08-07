@@ -5,7 +5,7 @@ library(sDevTools)
 
 # Package metadata
 
-fill_description(pkg_name = "shinyPills", pkg_title = "PKG_TITLE", pkg_description = "The package description.", author_first_name = "Theo", 
+fill_description(pkg_name = "shinyPills", pkg_title = "Draggable and droppable pills for shiny", pkg_description = "Draggable and droppable pills for shiny.", author_first_name = "Theo",
     author_last_name = "Schrock", author_email = "<theorschrock@gmail.com>")
 
 # Package dependencies (IMPORTS)
